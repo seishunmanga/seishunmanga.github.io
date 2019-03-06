@@ -1,0 +1,16 @@
+
+body{
+background: pink;
+}
+.wrapper{
+ max-width: 980px;
+ margin: 0 auto;
+ width: 100%;
+ background: #fff;
+ height: 1000px;
+ margin-top: 50px;
+}
+ul{
+margin: 0;
+padding: 0;
+}

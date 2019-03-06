@@ -1,0 +1,159 @@
+@font-face {
+font-family: goudy_bookletter_1911;
+src: url(../font.otf);
+}
+.main{
+width:650px;
+float: left;
+
+}
+.side {
+width: 330px;
+float: right;
+padding-left: 20px;
+box-sizing: border-box;
+}
+.img{
+width: 50%;
+float: left;
+padding: 15px;
+box-sizing: border-box;
+margin-left: 0%;
+}
+.img img{
+width: 100%;
+}
+.content{
+width: 50%;
+float: left;
+padding: 15px;
+box-sizing: border-box;
+}
+.blog{
+font-size: 13px;
+font-family: 'Srisakdi', cursive;
+}
+p.title{
+font-size: 26px;
+font-family: 'Srisakdi', cursive;
+}
+p.comment span {
+font-family: 'Srisakdi', cursive;
+font-size: 13px;
+}
+p.comment{
+font-size: 13px;
+}
+.main ul, .main li{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.main li{
+height: 275px;
+margin-bottom: 50px;
+clear: both
+}
+.main p {
+padding-bottom: 0;
+margin-bottom: 0;
+margin-top: 15px;
+}
+#more_btn{
+outline: 0;
+box-shadow: 0px 0px 0px transparent;
+border: 0px solid transparent;
+background: #fff;
+padding: 10px;
+width: 90%;
+margin-left: 5%;
+position: relative;
+}
+#more_btn:hover {
+background: #ffcc66;
+padding: 10px;
+width: 90%;
+margin-left: 5%;
+border-radius: 5px;
+}
+#more_btn img{
+opacity: 0;
+transition: all 1s;
+}
+#more_btn {
+position: relative;
+}
+@keyframes opaty {
+    0% {
+        transform: rotate(360deg);
+        opacity: 1;
+        position: absolute;
+        top: 10px;
+        left: 230px;
+    }
+    100% {
+        opacity: 0 !important;
+        position: absolute;
+        top: 10px;
+        left: 230px;
+    }
+}
+.ggg img{
+height: 140px;
+width: 100%;
+}
+.ggg{
+ padding: 15px 5px;
+}
+.hhh{
+height: 140px;
+width:100%;
+padding: 0px 5px;
+}
+.ggg:hover {
+opacity: 0;
+
+}
+.ggg:hover + .hhh{
+display: block !important;
+margin-top: -163px;
+background: #ffe5de;
+}
+.ggg:hover + .hhh .kaito{
+display: none;
+}
+.ggg:hover + .hhh .blog{
+display: none;
+}
+.ggg:hover + .hhh .title{
+font-size: 20px;
+}
+#all, #part{
+outline: 0;
+border: 0px solid transparent;
+background: transparent;
+}
+/*.mainh*********************************************************************************************************************************************************************************************************/
+.mainh h2 {
+font-family: goudy_bookletter_1911;
+padding-top: 0;
+margin-top: 0;
+padding-left: 40px;
+color: violet;
+}
+.mainh {
+height: 40px;
+padding-top: 20px;
+width: 100%;
+position: relative;
+}
+.mainh #all{
+position: absolute;
+right: 20px;
+top: 20px;
+}
+.mainh #part{
+position: absolute;
+right: 0px;
+top: 20px;
+}
