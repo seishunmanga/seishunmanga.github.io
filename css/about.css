@@ -1,0 +1,126 @@
+header {
+height: 250px;
+}
+.wrapper {
+height: 250px;
+}
+.section1 {
+width: 100%;
+}
+.section{
+margin-top: 300px;
+width: 1024px;
+height: 536px;
+background: #E2D7CE;
+margin: 0 auto;
+position: relative;
+}
+.section a{
+text-decoration: none;
+color: #333;
+}
+.section h1 {
+position: absolute;
+left: 50%;
+top: 58px;
+padding: 0;
+margin: 0;
+margin-left: -35px;
+font-size: 22px;
+font-family: goudy_bookletter_1911;
+z-index: 5000;
+}
+.box1{
+width: 31.35%;
+box-sizing: border-box;
+margin-left: 18.65%;
+float: left;
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
+height: 536px;
+}
+.box2 {
+width: 31.35%;
+box-sizing: border-box;
+float: left;
+border-right: 1px solid #fff;
+height: 536px;
+}
+.box101, .box201{
+width: 67.5%;
+margin: 0 auto;
+}
+.box1 h2, .box2 h2{
+ padding: 0;
+ margin: 0;
+ font-size: 16px;
+ width: 166px;
+ padding: 31px 25px;
+ margin-top: 148px;
+ font-family: sans-serif;
+}
+.box1 h2{
+ color: #e46c09;
+ text-align: center;
+}
+.box1 .clear {
+width: 66px;
+margin: 0 auto;
+border-bottom: 1px solid #e46c09;
+}
+.box2 h2 {
+ color: #254061;
+}
+.box2 .clear {
+width: 66px;
+margin: 0 auto;
+border-bottom: 1px solid #254061;
+}
+.section p{
+ font-size: 10px;
+ line-height: 18px;
+ letter-spacing: 2px;
+ padding: 0;
+ margin: 0;
+ padding-top: 43px;
+ width: 105%;
+}
+.box1 .more{
+ font-size: 10px;
+ color: #e46c09;
+ float: right;
+ padding-right: 40px;
+ padding-top: 30px;
+}
+.box2 .more{
+font-size: 10px;
+color: #254061;
+float: right;
+padding-right: 40px;
+padding-top: 30px;
+}
+.section .more i{
+ width: 10px;
+ height: 10px;
+ margin-left: 5px;
+}
+.box1:hover{
+background: rgba(255,255,255,0.5);
+}
+.box1:hover > a >.box101 > h2{
+background: #e46c09 !important;
+color: #fff;
+}
+.box1:hover > a > .box101 >.clear{
+border-bottom: 0px solid transparent;
+}
+.box2:hover{
+background: rgba(255,255,255,0.5);
+}
+.box2:hover > a > .box201 > h2{
+background: #254061;
+color: #fff;
+}
+.box2:hover > a > .box201 > .clear{
+border-bottom: 0px solid transparent;
+}

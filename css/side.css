@@ -1,0 +1,57 @@
+
+.side {
+ padding-right: 15px;
+ box-sizing: border-box;
+}
+.side ul, .side ul li{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.side a {
+text-decoration: none;
+}
+.cateimg img{
+width: 50px;
+height: 50px;
+padding-top: 15px;
+
+}
+.side .h3 h3 ,.catecontent h4{
+font-family: goudy_bookletter_1911;
+color: violet;
+}
+.catecontent h4 {
+padding: 0;
+margin: 0;
+line-height: 30px;
+}
+p.sentence {
+padding: 0;
+margin: 0;
+font-size: 10px;
+font-family: 'Srisakdi', cursive;
+}
+.category{
+width: 100%;
+
+
+}
+.category li {
+
+height: 80px;
+border-bottom: 0.5px solid #ddd;
+}
+.cateimg {
+float: left;
+width: 60px;
+}
+.catecontent{
+height: 60px;
+margin-left: 65px;
+padding: 15px 0px 10px;
+width: 100%;
+}
+.side .h3 {
+border-bottom: 1px solid #ddd;
+}
